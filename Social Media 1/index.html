@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neomorphism UI Design</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <! -- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css -- >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <script>
+      var facebook = new Audio();
+      var twitter = new Audio();
+      var whatsapp = new Audio();
+      var instagram = new Audio();
+      var youtube = new Audio();
+      facebook.src = "sound/facebook.mp3";
+      twitter.src = "sound/twitter.mp3";
+      whatsapp.src = "sound/whatsapp.mp3";
+      instagram.src = "sound/instagram.mp3";
+    </script>
+  </head>
+
+  <body>
+    <h1>Follow us on Social Media</h1>
+
+    <div class="social-media">
+      <a onmousedown="facebook.play()" href="https://www.facebook.com/"
+        ><i class="fab fa-facebook"></i
+      ></a>
+      <a onmousedown="twitter.play()" href="https://twitter.com/"
+        ><i class="fab fa-twitter"></i
+      ></a>
+      <a onmousedown="whatsapp.play()" href="https://web.whatsapp.com/"
+        ><i class="fab fa-whatsapp"></i
+      ></a>
+      <a onmousedown="instagram.play()" href="https://www.instagram.com/"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+    </div>
+  </body>
+</html>
